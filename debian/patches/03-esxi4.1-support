@@ -1,0 +1,15 @@
+diff --git a/pyvisdk/do/user_session.py b/pyvisdk/do/user_session.py
+index d39db24..d897e83 100644
+--- a/pyvisdk/do/user_session.py
++++ b/pyvisdk/do/user_session.py
+@@ -14,8 +14,8 @@ def UserSession(vim, *args, **kwargs):
+     obj = vim.client.factory.create('{urn:vim25}UserSession')
+ 
+     # do some validation checking...
+-    if (len(args) + len(kwargs)) < 8:
+-        raise IndexError('Expected at least 9 arguments got: %d' % len(args))
++    if (len(args) + len(kwargs)) < 7:
++        raise IndexError('Expected at least 8 arguments got: %d' % len(args))
+ 
+     required = [ 'extensionSession', 'fullName', 'key', 'lastActiveTime', 'locale', 'loginTime',
+         'messageLocale', 'userName' ]

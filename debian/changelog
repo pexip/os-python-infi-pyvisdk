@@ -1,3 +1,10 @@
+python-infi-pyvisdk (0.9.34-2) precise; urgency=low
+
+  * debian/patches/03-esxi4.1-support
+    - Minimal patch for ESXi 4.1 support
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 17 Sep 2013 12:50:09 +0100
+
 python-infi-pyvisdk (0.9.34-1) precise; urgency=low
 
   * Initial release
