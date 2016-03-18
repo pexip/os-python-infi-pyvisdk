@@ -1,3 +1,10 @@
+python-infi-pyvisdk (0.9.34-3) pexip; urgency=low
+
+  * debian/patches/04-remove-enum
+    - Do not require python-enum
+
+ -- John-Mark Bell <jmb@pexip.com>  Fri, 18 Mar 2016 16:11:38 +0000
+
 python-infi-pyvisdk (0.9.34-2) precise; urgency=low
 
   * debian/patches/03-esxi4.1-support

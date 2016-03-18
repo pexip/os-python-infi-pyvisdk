@@ -1,0 +1,13 @@
+diff --git a/setup.py b/setup.py
+index 7ca357a..3c76ad8 100644
+--- a/setup.py
++++ b/setup.py
+@@ -32,7 +32,7 @@ location = os.path.abspath(os.path.dirname(__file__))
+ version = open(os.path.join(location, "pyvisdk", "__init__.py")).readline().split()[-1].strip("'")
+ 
+ # we need to make sure we have these to python modules in our path
+-install_requires = ["suds-jurko", "enum", "brownie", "lxml", "bunch", "infi.pyutils", "jinja2", "python-cjson", ]
++install_requires = ["suds-jurko", "brownie", "lxml", "bunch", "infi.pyutils", "jinja2", "python-cjson", ]
+ 
+ setup( 
+     name = 'infi.pyvisdk',
